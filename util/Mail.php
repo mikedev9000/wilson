@@ -17,7 +17,7 @@ class Mail extends \lithium\core\StaticObject {
      * @param array $options
      * @return bool 
      */
-    public static function send( $options ){
+    public static function send( $options = array() ){
         
         $defaults = array(
           'to' => array( 'test@wilsonfreelance.com' => 'No Name- Test' ),
